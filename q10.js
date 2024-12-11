@@ -16,4 +16,5 @@ while (cont<num) {
     console.log(cont)
     cont = cont+2
 }
-console.log("FIM")
+
+console.log("Progama encerrado")

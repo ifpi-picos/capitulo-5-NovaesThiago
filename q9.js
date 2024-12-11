@@ -26,3 +26,5 @@ if (imc<18.5){
     } else {
         console.log("Resultado inválido.")
     }
+
+console.log("Progama encerrado")

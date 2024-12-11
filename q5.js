@@ -14,3 +14,5 @@ if (escolha==1){
     resultado = ((fahren-32)*5)/9
     console.log("A temperatura em °C é:", resultado)
 }
+
+console.log("Progama encerrado")

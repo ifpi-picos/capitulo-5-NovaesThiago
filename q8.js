@@ -21,3 +21,5 @@ switch (escolha){
         console.log("Salada valor:","R$", salada)
         break;
 }
+
+console.log("Progama encerrado")

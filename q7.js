@@ -13,3 +13,5 @@ if (lado1+lado2<=lado3 || lado2+lado3<=lado1 || lado1+lado3>=lado2){
 }      else { 
         console.log("Seu triangulo é Escaleno.")
 }
+
+console.log("Progama encerrado")

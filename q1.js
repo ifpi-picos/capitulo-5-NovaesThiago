@@ -7,3 +7,5 @@ if (num == 0) {
 } else {
     console.log("Seu número é impar!")
 }
+
+console.log("Progama encerrado")

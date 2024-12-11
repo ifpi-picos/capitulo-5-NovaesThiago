@@ -8,3 +8,5 @@ if ((num1%num2==0)||(num2%num1==0)){
 } else {
     console.log("Nenhum dos números são multiplos")
 }
+
+console.log("Progama encerrado")

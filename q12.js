@@ -9,4 +9,4 @@ for(let i = 1; i<=num ; i++){
 }
 
 console.log(soma)
-console.log("FIM")
+console.log("Progama encerrado")

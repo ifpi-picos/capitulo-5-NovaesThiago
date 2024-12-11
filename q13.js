@@ -46,4 +46,4 @@ while (resetGame!=2) {
     resetGame = prompt("DESEJA JOGAR NOVAMENTE?          1(SIM)    2(NÃO)")
 }
 
-console.log("PROGAMA ENCERRADO.")
+console.log("PROGAMA ENCERRADO ")

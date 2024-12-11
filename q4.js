@@ -11,3 +11,5 @@ if (idade>=18){
 } else {
     console.log("Usuario menor de idade")
 }
+
+console.log("Progama encerrado")

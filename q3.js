@@ -12,3 +12,5 @@ if (media>=7){
 } else {
     console.log("Aluno Reprovado!")
 }
+
+console.log("Progama encerrado")
