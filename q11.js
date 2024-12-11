@@ -1,4 +1,5 @@
 console.log("//////////////////////MULTIPLOS IMPARES/////////////////////////")
+
 let num = Number(prompt("Digite um número positivo: "))
 
 while(num<0){
