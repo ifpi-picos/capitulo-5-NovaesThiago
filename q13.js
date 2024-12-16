@@ -24,26 +24,24 @@ while (resetGame!=2) {
                 palpite = prompt("DIGITE O SEU PALPITE: ")
             }else if (palpite==num){
                 console.log("PARABÉNS! VOCÊ ACERTOU!")
-             i = 10
-            } else {
-                
-                if (palpite<num){ 
-                    console.log("O NÚMERO SECRETO É MAIOR QUE O PALPITE DIGITADO")
-                    palpite = prompt("DIGITE O SEU PALPITE: ")
-                }else {
-                    console.log("O NÚMERO SECRETO É MENOR QUE O PALPITE DIGITADO")
-                    palpite = prompt("DIGITE O SEU PALPITE: ") 
-                }
+             break
+            } else if (palpite<num){ 
+                console.log("O NÚMERO SECRETO É MAIOR QUE O PALPITE DIGITADO")
+                palpite = prompt("DIGITE O SEU PALPITE: ")
+            }else {
+                console.log("O NÚMERO SECRETO É MENOR QUE O PALPITE DIGITADO")
+                palpite = prompt("DIGITE O SEU PALPITE: ") 
             }
         }
-            if (palpite!=num){
+    }
+        if (palpite!=num){
             console.log("TENTATIVAS ESGOTADAS ;-;   TENTE NOVAMENTE!")
         }
-    }
+}
 
     console.log("O NÚMERO SECRETO ERA:", num)
     num = (Math.floor(Math.random() * 101)) //vai escolher outro numero aleatorio para reiniciar o jogo
     resetGame = prompt("DESEJA JOGAR NOVAMENTE?          1(SIM)    2(NÃO)")
-}
+
 
 console.log("PROGAMA ENCERRADO ")
