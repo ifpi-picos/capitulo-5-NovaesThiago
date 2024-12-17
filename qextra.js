@@ -1,7 +1,5 @@
 let num = Number(Math.floor(Math.random() * 101))
-let palpite = Number
 let resetGame = Number
-let pontuacao = Number(99)
 
 while (resetGame!=2) {
 
@@ -9,12 +7,16 @@ while (resetGame!=2) {
     console.log("ADIVINHE UM NÚMERO DE 0 À 100")
     console.log("O JOGADOR TERÁ 100 PONTOS, A CADA ERRO ELE PERDERÁ 1 PONTO. BOA SORTE!")
 
+    let pontuacao = Number(99)
+    let palpite = Number
+
     while (true) {
 
         palpite = prompt("DIGITE O SEU PALPITE: ") 
         if (palpite == num){
             console.log("PARABÉNS! VOCÊ ACERTOU!")
             console.log("SUA PONTUAÇÃO FOI: ", pontuacao)
+            console.log("O NÚMERO SECRETO ERA:", num)
             break
         }else if (palpite<0){
             console.log("NÚMERO INVALIDO")
