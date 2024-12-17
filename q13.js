@@ -7,7 +7,7 @@ let resetGame = Number
 while (resetGame!=2) {
     console.log("////////////////////ADIVINHE O NUMERO!/////////////////////")
     console.log("ADIVINHE UM NÚMERO DE 0 À 100")
-    console.log("LEMBRE-SE: O USUÁRIO TEM 10 TENTATIVAS. BOA SORTE!")
+    console.log("LEMBRE-SE: O JOGADOR TEM 10 TENTATIVAS. BOA SORTE!")
 
 
     palpite = prompt("DIGITE O SEU PALPITE: ") 
@@ -34,14 +34,14 @@ while (resetGame!=2) {
             }
         }
     }
-        if (palpite!=num){
-            console.log("TENTATIVAS ESGOTADAS ;-;   TENTE NOVAMENTE!")
-        }
+    if (palpite!=num){
+        console.log("TENTATIVAS ESGOTADAS ;-;   TENTE NOVAMENTE!")
+    }
+
+
+console.log("O NÚMERO SECRETO ERA:", num)
+num = (Math.floor(Math.random() * 101)) //vai escolher outro numero aleatorio para reiniciar o jogo
+resetGame = prompt("DESEJA JOGAR NOVAMENTE?          1(SIM)    2(NÃO)")
 }
 
-    console.log("O NÚMERO SECRETO ERA:", num)
-    num = (Math.floor(Math.random() * 101)) //vai escolher outro numero aleatorio para reiniciar o jogo
-    resetGame = prompt("DESEJA JOGAR NOVAMENTE?          1(SIM)    2(NÃO)")
-
-
-console.log("PROGAMA ENCERRADO ")
+console.log("GAME OVER")
