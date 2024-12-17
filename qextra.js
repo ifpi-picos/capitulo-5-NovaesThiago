@@ -7,7 +7,7 @@ while (resetGame!=2) {
     console.log("ADIVINHE UM NÚMERO DE 0 À 100")
     console.log("O JOGADOR TERÁ 100 PONTOS, A CADA ERRO ELE PERDERÁ 1 PONTO. BOA SORTE!")
 
-    let pontuacao = Number(99)
+    let pontuacao = Number(100)
     let palpite = Number
 
     while (true) {
